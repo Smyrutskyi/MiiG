@@ -1,0 +1,16 @@
+@font-face {
+	font-family: "CoreSansA35Light";
+	src: url("../fonts/CoreSansA35Light.ttf");
+}
+@font-face {
+	font-family: "CoreSansA35Light-Italic";
+	src: url("../fonts/CoreSansA35Light-Italic.ttf");
+}
+@font-face {
+	font-family: "CoreSansA55Medium";
+	src: url("../fonts/CoreSansA55Medium.ttf");
+}
+@font-face {
+	font-family: "CoreSansA65Bold";
+	src: url("../fonts/CoreSansA65Bold.ttf");
+}
