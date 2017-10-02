@@ -3,7 +3,7 @@
 <head>
 	<link href="css/fonts.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-	<title> Мебельная фабрика MIG </title>
+	<title>Мебельная фабрика MIG</title>
 </head>
 <body>
 	<header>
@@ -32,8 +32,22 @@
 
 
 			<div class="phone-call">
-				<a class="call-btn" href="#"><img src="img/phone-pict.png"><p>Обратный звонок</p></a>
+				<a class="call-btn" href="#"><img src="img/phone-pict.png" alt="Кнопка обратного звонка"><p>Обратный звонок</p></a>
 			</div>
+
+			<form  class="form-phone-call">
+				<div>
+					<label for="ch1">Ваше имя:</label>
+					<input type="text" id="ch1">
+				</div>
+				<div>
+					<label for="ch2">Телефон:</label>
+					<input type="text" placeholder="+7 (964) 123-45-67" id="ch2">
+				</div>
+				<div>
+					<button type="submit">Заказать</button>
+				</div>
+			</form>
 
 			<nav>
 				<ul>
@@ -103,16 +117,35 @@
 
 	<main>
 		
-
-		<div class="background-fon">
-			<h1> Изготовление эксклюзивных<br> изделий из дерева</h1>
-			<button type="button">Подробнее</button>
-			<div class="type-screen">
-				<a href="#"><img src="img/orange-circle.png" width="14" height="14" alt="Позиция №1"></a>
-				<a href="#"><img src="img/grey-circle.png" width="14" height="14" alt="Позиция №1"></a>
-				<a href="#"><img src="img/grey-circle.png" width="14" height="14" alt="Позиция №1"></a>
+		<div class="for-slides">
+			<div class="background-fon">
+				<h1> Изготовление эксклюзивных<br> изделий из дерева</h1>
+				<button type="button">Подробнее</button>
 			</div>
 		</div>
+
+		<div class="for-slides">
+			<div class="background-fon1">
+				<h1> Изготовление эксклюзивных<br> изделий из дерева</h1>
+				<button type="button">Подробнее</button>
+			</div>
+		</div>
+
+
+		<div class="for-slides">
+			<div class="background-fon2">
+				<h1> Изготовление эксклюзивных<br> изделий из дерева</h1>
+				<button type="button">Подробнее</button>
+			</div>
+		</div>
+
+
+		<div class="my-dots">
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+		</div>
+		
 		
 
 
@@ -424,6 +457,8 @@
 			<button class="first-footer-btn" type="button">Счетчик</button>
 			<button class="second-footer-btn" type="button">Метрика</button>
 		</div>
+		<span class="copyright">Все права защищены 2017 &#169;</span>
 	</footer>
+	<script src="js/booking.js"></script>
 </body>
 </html>
